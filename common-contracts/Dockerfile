@@ -1,5 +1,5 @@
 # syntax=docker.io/docker/dockerfile:1.4
-FROM node:16.20.1-bookworm-slim as base
+FROM node:23.3.0-bookworm-slim as base
 
 FROM base as builder
 
